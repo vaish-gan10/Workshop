@@ -1,0 +1,7 @@
+import os 
+from gtts import gTTS
+myText = "Hope you all are doing great ,My self Vaishnavi Gangwar"
+Language = 'en'
+myObj = gTTS(text=myText,lang=Language)
+myObj.save("message.mp3")
+os.system("message.mp3")
