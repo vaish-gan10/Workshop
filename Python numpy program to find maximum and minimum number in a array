@@ -1,0 +1,9 @@
+import numpy as np
+myarray = np.array([18,30,23,10,20])
+print(myarray)
+sortedMyArray = np.sort(myarray)
+print(sortedMyArray)
+mymaxvalue = np.max(myarray)
+print(mymaxvalue)
+myminvalue = np.min(myarray)
+print(myminvalue)
